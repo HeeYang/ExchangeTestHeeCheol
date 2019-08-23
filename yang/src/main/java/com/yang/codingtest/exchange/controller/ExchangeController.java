@@ -28,7 +28,10 @@ public class ExchangeController {
 		String exchangeRateStr = exchangeRate+" "+country+"/USD";
 		
 		model.addAttribute("exchangeRate", exchangeRateStr);
-		
+
+
+		//수정을 완료 합니다.
+
 		return exchangeRateStr;
 	}
 	
